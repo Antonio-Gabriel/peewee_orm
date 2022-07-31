@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "peeweepr"
+version = "0.1.0"
+description = "explore new resources of peewee orm"
+authors = ["Antonio Gabriel <antoniocamposgabriel@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+peewee = "^3.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
